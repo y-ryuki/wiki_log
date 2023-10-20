@@ -36,6 +36,7 @@ https://wikitech.wikimedia.org/wiki/Analytics/Data_Lake/Traffic/Pageviews
 初めにファイルをダウンロード、展開し、src/log_fileディレクトリにpageviewsという名前で保存してください。
 
 プログラム実行
+
 `docker compose exec app php exec.php`
 
 実行されると以下のように解析されます。
